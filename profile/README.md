@@ -22,11 +22,11 @@ Full abstract [here](https://docs.google.com/document/d/135Y6yAEaJZleIXPm74G5dfw
 
 | Component | Description | Git Repository | Container Image |
 | --- | --- | --- | --- |
-| **train-controller** | Receives commands through MQTT and acts on the Lego Hub accordingly. | [redhatnsp/train-controller](https://github.com/redhatnsp/train-controller) | [quay.io/demo-ai-edge-crazy-train/train-controller](https://quay.io/repository/demo-ai-edge-crazy-train/train-controller) |
-| **intelligent-train** | Receives images through MQTT, process them with an AI model and sends the results back to MQTT | [redhatnsp/intelligent-train](https://github.com/redhatnsp/intelligent-train) | [quay.io/demo-ai-edge-crazy-train/intelligent-train](https://quay.io/repository/demo-ai-edge-crazy-train/intelligent-train) |
-| **train-ceq-app** | Manages messages between the train-controller, intelligent-train, capture-app, MQTT and Kafka. | [redhatnsp/train-ceq-app](https://github.com/redhatnsp/train-ceq-app) | [quay.io/demo-ai-edge-crazy-train/train-ceq-app](https://quay.io/repository/demo-ai-edge-crazy-train/train-ceq-app) |
-| **train-monitoring-app** | Displays images streamed through Kafka. | [redhatnsp/train-monitoring-app](https://github.com/redhatnsp/train-monitoring-app) | [quay.io/demo-ai-edge-crazy-train/train-monitoring-app](https://quay.io/repository/demo-ai-edge-crazy-train/train-monitoring-app) |
-| **train-capture-image-app** | Captures and compresses images from the webcam. Sends them over MQTT. | [redhatnsp/train-capture-image-app](https://github.com/redhatnsp/train-capture-image-app) | [quay.io/demo-ai-edge-crazy-train/train-capture-image-app](https://quay.io/repository/demo-ai-edge-crazy-train/train-capture-image-app) |
+| **train-controller** | Receives commands through MQTT and acts on the Lego Hub accordingly. | [redhatnsp/train-controller](https://github.com/redhatnsp/train-controller) | [quay.io/mregan/train-controller-app-arm64](https://quay.io/repository/mregan/train-controller-app-arm64) |
+| **intelligent-train** | Receives images through MQTT, process them with an AI model and sends the results back to MQTT | [redhatnsp/intelligent-train](https://github.com/redhatnsp/intelligent-train) | [quay.io/mregan/intelligent-train-app-arm64](https://quay.io/repository/mregan/intelligent-train-app-arm64) |
+| **train-ceq-app** | Manages messages between the train-controller, intelligent-train, capture-app, MQTT and Kafka. | [redhatnsp/train-ceq-app](https://github.com/redhatnsp/train-ceq-app) | [quay.io/mregan/train-ceq-app-arm64](https://quay.io/repository/mregan/train-ceq-app-arm64) |
+| **train-monitoring-app** | Displays images streamed through Kafka. | [redhatnsp/train-monitoring-app](https://github.com/redhatnsp/train-monitoring-app) | [quay.io/mregan/train-monitoring-app-arm64](https://quay.io/repository/mregan/train-monitoring-app-arm64) |
+| **train-capture-image-app** | Captures and compresses images from the webcam. Sends them over MQTT. | [redhatnsp/train-capture-image-app](https://github.com/redhatnsp/train-capture-image-app) | [quay.io/mregan/train-capture-app-arm64](https://quay.io/repository/mregan/train-capture-app-arm64) |
 
 ## Bill of Materials
 

@@ -64,9 +64,9 @@ If you want to replace the green bricks by red ones and make the train a bit mor
 
 ### Bluetooth
 
-- [node-ble](https://github.com/Demo-AI-Edge-Crazy-Train/node-ble): NodeJS library to use the BlueZ DBUS API under Linux
-- [noble](https://github.com/Demo-AI-Edge-Crazy-Train/noble): NodeJS library that provides a cross-platform abstraction to communicate over Bluetooth Low Energy (BLE)
-- [node-poweredup](https://github.com/Demo-AI-Edge-Crazy-Train/node-poweredup): NodeJS library that communicates with Lego hubs over Bluetooth Low Energy (BLE)
+- [node-ble](https://github.com/redhatnsp/node-ble): NodeJS library to use the BlueZ DBUS API under Linux
+- [noble](https://github.com/redhatnsp/noble): NodeJS library that provides a cross-platform abstraction to communicate over Bluetooth Low Energy (BLE)
+- [node-poweredup](https://github.com/redhatnsp/node-poweredup): NodeJS library that communicates with Lego hubs over Bluetooth Low Energy (BLE)
 
 ### OpenCV
 
